@@ -6,35 +6,89 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/GPU Instancing/01_SimpleMultipleLights.unity
+    path: Assets/UTF_Core/Master.unity
+    guid: eeb90a5e2fc14084296c04b52196dcf8
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/GPU Instancing/1SimpleCubes.unity
     guid: f76ab52dc7afe498d99d7f1110661022
   - enabled: 1
-    path: Assets/Scenes/GPU Instancing/02_RocksScene.unity
+    path: Assets/UTF_Tests_Terrain/Scenes/GPU Instancing/2Rocks.unity
     guid: 11302e111aea8584db7badbce8096412
   - enabled: 1
-    path: Assets/Scenes/GPU Instancing/03_DrawMeshInstancedMixedScene.unity
+    path: Assets/UTF_Tests_Terrain/Scenes/GPU Instancing/3DMIMixed.unity
     guid: 72644f8ab545ff04db9342f7e032f966
   - enabled: 1
-    path: Assets/Scenes/GPU Instancing/04_AutomaticInstancingSubmeshes.unity
+    path: Assets/UTF_Tests_Terrain/Scenes/GPU Instancing/4RenderloopSubmesh.unity
     guid: 7b850a57dc1704d5896b664669b896d1
   - enabled: 1
-    path: Assets/Scenes/GPU Instancing/05_AutomaticSpriteInstancing.unity
-    guid: 5c32d881db85e9149886a25328a8d191
-  - enabled: 1
-    path: Assets/Scenes/GPU Instancing/06_AutomaticSpeedTreeInstancingLODs.unity
+    path: Assets/UTF_Tests_Terrain/Scenes/GPU Instancing/6TreeLOD.unity
     guid: 277216be7c7a544a8a28ba47ec4f8175
   - enabled: 1
-    path: Assets/Scenes/GPU Instancing/07_DrawInstancedGameobjectNonInstancedPropertiesMixed.unity
+    path: Assets/UTF_Tests_Terrain/Scenes/GPU Instancing/7DMIPropMixed.unity
     guid: be1aa3b1d90714035a35334ae9e04207
   - enabled: 1
-    path: Assets/Scenes/GPU Instancing/08_DrawInstancedGameobjectTreePrefabs.unity
+    path: Assets/UTF_Tests_Terrain/Scenes/GPU Instancing/8DMITrees.unity
     guid: 72e0f730c2708b245bdb67f33c1a530a
   - enabled: 1
-    path: Assets/Scenes/GPU Instancing/09_AutomaticInstancingTreesWindZone.unity
-    guid: fe43665e073d6bd488f3629b0f3720b1
-  - enabled: 1
-    path: Assets/Scenes/GPU Instancing/10_DrawMeshInstancedSubmesh.unity
+    path: Assets/UTF_Tests_Terrain/Scenes/GPU Instancing/10DMISubmesh.unity
     guid: cdc8b4d2d6a48b143bdd4247ee02bc25
   - enabled: 1
-    path: Assets/Scenes/GPU Instancing/11_AutomaticInstancingSorting.unity
+    path: Assets/UTF_Tests_Terrain/Scenes/GPU Instancing/11RenderloopSorting.unity
     guid: 4532fbdfc677c48acbc3f7b4a70ea94f
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/SpeedTree/1SpeedTree_Customization.unity
+    guid: bc1f9b071f8b6467a8d4bde125a3755a
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/SpeedTree/2SpeedTreeCrossfadePrefab.unity
+    guid: 7ab528a45213c4bafbf076338a109034
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/SpeedTree/3SpeedTreeCrossfadeSPM.unity
+    guid: c41c2bc136b8a415d9c2c1e9ecfa0666
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/SpeedTree/4BillboardShadowsTest.unity
+    guid: 8ceddccf635d5493291919447f7dd271
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/SpeedTree/5TreeMassPlaceWind.unity
+    guid: 44b09948ab6424b9f9e2bc27d4fda936
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/SpeedTree/6BillboardBatchedRendering.unity
+    guid: 205cc77a6b5f1e04199dadb594b77d4d
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/Terrain/2SculptTerrain.unity
+    guid: a3aacb033be004c018f91f4cde2ed41e
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/Terrain/3PaintTextures.unity
+    guid: 45c962ba7923f4895b31365e720f41d0
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/Terrain/5PaintFoliage.unity
+    guid: 0a1288172792d46ddb39181cda06a12f
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/Terrain/7BigTerrain.unity
+    guid: 99b85e90d5c61e747b9cd263cb774382
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/Terrain/8ReflectionProbes.unity
+    guid: 70b2ca054146d1642a5911803bbbb4ce
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/Terrain/9RealtimeGI.unity
+    guid: 005c64d5303cf9940a272f68cd454719
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/Terrain/10BakedGI.unity
+    guid: 7df0b944f2ba65049b7b41cb3bc00104
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/Terrain/11ScenarioTest.unity
+    guid: a2a4978ed9df24b3ea34852c59cba572
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/Terrain/12TerrainFoliage.unity
+    guid: f90a8acb2ce64409db023bdb62a1e43c
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/Terrain/14TreeCreatorTrees.unity
+    guid: 1245873791df0f14993eb14e2a327e73
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/Terrain/15EditTexture.unity
+    guid: b4b9ae3cd9a8d99498e71df053455535
+  - enabled: 1
+    path: "Assets/UTF_Tests_Terrain/Scenes/Terrain/API scenes/\u0421reateTerrainAPI.unity"
+    guid: 4e251bad80698454182fe558775132e4
+  - enabled: 1
+    path: Assets/UTF_Tests_Terrain/Scenes/Terrain/API scenes/TerrainInstantiate.unity
+    guid: adbebd00ecfb946a680b900fd84e00b5

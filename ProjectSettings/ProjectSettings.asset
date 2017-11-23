@@ -10,8 +10,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: TerrainSpeedtreeSmokeTestProject
+  companyName: Unity Technologies
+  productName: UTF_Various
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -47,7 +47,7 @@ PlayerSettings:
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
-  m_ActiveColorSpace: 0
+  m_ActiveColorSpace: 1
   m_MTRendering: 1
   m_MobileMTRendering: 0
   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
@@ -78,7 +78,7 @@ PlayerSettings:
   resizableWindow: 0
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
-  gpuSkinning: 0
+  gpuSkinning: 1
   graphicsJobs: 0
   xboxPIXTextureCapture: 0
   xboxEnableAvatar: 0
@@ -121,7 +121,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.0
+  bundleVersion: 1.0b1
   preloadedAssets: []
   metroInputSource: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -141,10 +141,20 @@ PlayerSettings:
   targetPixelDensity: 0
   resolutionScalingMode: 0
   applicationIdentifier:
-    Android: com.Company.ProductName
-    Standalone: unity.DefaultCompany.TerrainSpeedtreeSmokeTestProject
-    Tizen: com.Company.ProductName
-    iOS: com.Company.ProductName
+    '': com.UnityTechnologies.UTF_Various
+    Android: com.UnityTechnologies.UTF_Various
+    Metro: com.UnityTechnologies.UTF_Various
+    N3DS: com.UnityTechnologies.UTF_Various
+    PS4: com.UnityTechnologies.UTF_Various
+    PSM: com.UnityTechnologies.UTF_Various
+    PSP2: com.UnityTechnologies.UTF_Various
+    SamsungTV: com.UnityTechnologies.UTF_Various
+    Standalone: com.UnityTechnologies.UTF_Various
+    Tizen: com.UnityTechnologies.UTF_Various
+    WebGL: com.UnityTechnologies.UTF_Various
+    WebPlayer: com.UnityTechnologies.UTF_Various
+    XboxOne: com.UnityTechnologies.UTF_Various
+    iOS: com.UnityTechnologies.UTF_Various
     tvOS: com.Company.ProductName
   buildNumber:
     iOS: 0
@@ -238,7 +248,10 @@ PlayerSettings:
   - m_BuildTarget: Standalone
     m_StaticBatching: 0
     m_DynamicBatching: 0
-  m_BuildTargetGraphicsAPIs: []
+  m_BuildTargetGraphicsAPIs:
+  - m_BuildTarget: WindowsStandaloneSupport
+    m_APIs: 15000000
+    m_Automatic: 0
   m_BuildTargetVRSettings:
   - m_BuildTarget: Android
     m_Enabled: 0
@@ -560,13 +573,19 @@ PlayerSettings:
   webGLUseWasm: 0
   webGLCompressionFormat: 1
   scriptingDefineSymbols:
-    1: CROSS_PLATFORM_INPUT
-    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
-    7: CROSS_PLATFORM_INPUT;MOBILE_INPUT
-    14: CROSS_PLATFORM_INPUT;MOBILE_INPUT
-    17: MOBILE_INPUT
-    20: MOBILE_INPUT
-    22: MOBILE_INPUT
+    1: UTF_EXISTS;CROSS_PLATFORM_INPUT
+    2: UTF_EXISTS
+    4: UTF_EXISTS;CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    7: UTF_EXISTS;CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    13: UTF_EXISTS
+    14: UTF_EXISTS;MOBILE_INPUT
+    17: UTF_EXISTS;MOBILE_INPUT
+    18: UTF_EXISTS
+    19: UTF_EXISTS
+    20: UTF_EXISTS;MOBILE_INPUT
+    21: UTF_EXISTS
+    22: UTF_EXISTS;MOBILE_INPUT
+    23: UTF_EXISTS
   platformArchitecture:
     iOS: 2
   scriptingBackend:
@@ -660,8 +679,8 @@ PlayerSettings:
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
     Analytics: 0
-    Build: 0
-    Collab: 1
+    Build: 1
+    Collab: 0
     ErrorHub: 0
     Game_Performance: 0
     Hub: 0
